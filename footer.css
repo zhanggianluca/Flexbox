@@ -6,6 +6,8 @@ body {
 .footer {
   height: 150px;
   background-color: lightgrey;
+  display: flex; 
+  align-items: flex-start; 
 }
 
 .title {
@@ -20,5 +22,19 @@ body {
 .item {
   padding: 10px;
   width: 150px;
+  height: 130px; 
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+}
+
+/*Extension*/
+#one {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+}
+
+#three {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
 }
